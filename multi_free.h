@@ -9,6 +9,7 @@
 #define multi_free_h
 
 #include <stdlib.h>
+#include <stdarg.h>
 
 #define FREE(...) multi_free(__VA_ARGS__, NULL);
 
