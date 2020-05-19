@@ -1,13 +1,17 @@
 ### Initial free() use:
 
-```free(a);
+```
+free(a);
 
 free(b);
 
 ...
 
-free(z);```
+free(z);
+```
 
 ### This macros free() use:
 
-```FREE(a, b, ... z);```
+```
+FREE(a, b, ... z);
+```
