@@ -10,7 +10,7 @@ free(b);
 free(z);
 ```
 
-### This macros free() use:
+### This macros FREE() use:
 
 ```
 FREE(a, b, ... z);
